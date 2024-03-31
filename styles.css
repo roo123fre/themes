@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.light {
+    background-color: #E5F8FF;
+    color: #1D4250;
+}
+
+.dark {
+    color: #E5F8FF;
+    background-color: #1D4250;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
